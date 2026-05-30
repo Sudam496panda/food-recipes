@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import RecipeCard from "./components/RecipeCard";
 import Favorites from "./components/Favorites";
-
+import Recipes from "./components/Recipes";
 
 
 function App() {
@@ -45,6 +45,11 @@ function App() {
         <Route
           path="/favorites"
           element={<Favorites />}
+        />
+
+        <Route
+          path="/Recipes"
+          element={<Recipes />}
         />
 
       </Routes>

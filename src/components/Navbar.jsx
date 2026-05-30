@@ -31,13 +31,19 @@ function Navbar({ search, setSearch }) {
         </div>
  
         <ul className="nav-links">
+            <li>
+            <Link to="/">
+             Home
+            </Link>
+          </li>
            <li>
-            <Link to="/RecipeCard">
+            <Link to="/Recipes">
               Recipes
             </Link>
           </li>
+           
              <li>
-            <Link to="/favorites">favorite recipes</Link>
+            <Link to="/favorites">Favourite-recipes</Link>
           </li>
         </ul>
 
