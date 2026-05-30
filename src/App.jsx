@@ -4,7 +4,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import RecipeCard from "./components/RecipeCard";
-import Favorites from "./components/Favorites";
+import Favorites from "./components/favorites";
 import Recipes from "./components/Recipes";
 
 
